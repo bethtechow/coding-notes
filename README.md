@@ -72,3 +72,89 @@ Bold just a word
 <p>No I don't. I'm <strong>too</strong> busy eating cake.</p>
 Italics
 <p>I am <em>so</em> tired.</p>
+
+Tables-go inside body
+ <table border="1px">
+            <tr>
+                <td>King Kong</td>
+                <td>1933</td>     
+            </tr>
+            
+            <tr>
+                <td>Dracula</td>
+                <td>1897</td>
+            </tr>
+            
+            <tr>
+                <td>Bride of Frankenstein</td>
+                <td>1935</td>
+            </tr>
+        </table>
+	
+more on tables, tables have heads and bodies too!
+colspan means the title spans more than on column
+<html>
+    <head>
+        <title>Table Time</title>
+    </head>
+    
+    <body>
+        
+        <table style="border-collapse:collapse;">
+            <thead>
+                <tr>
+                    <th style="color: red"; colspan="2">Famous Monsters by Birth Year</th>
+                </tr>
+                <tr style="border-bottom:1px solid black;">
+                    <th style="padding:5px;"><em>Famous Monster</em></th>
+                    <th style="padding:5px;border-left:1px solid black;"><em>Birth Year</em></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="padding:5px;">King Kong</td>
+                    <td style="padding:5px;border-left:1px solid black;">1933</td>     
+                </tr>
+                
+                <tr>
+                    <td style="padding:5px;">Dracula</td>
+                    <td style="padding:5px;border-left:1px solid black;">1897</td>
+                </tr>
+                
+                <tr>
+                    <td style="padding:5px;">Bride of Frankenstein</td>
+                    <td style="padding:5px;border-left:1px solid black;">1944</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </body>
+
+</html>
+
+Divide page into sections:
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Result</title>
+	</head>
+	<body>
+		<div style="width:50px; height:50px; background-color:red"></div>
+		<div style="width:50px; height:50px; background-color:blue"></div>
+		<div style="width:50px; height:50px; background-color:green"></div>
+		<a href="http://www.cooltanarts.org.uk/wp-content/uploads/2013/10/robot.jpg">
+		<div style="width:50px; height:50px; background-color:yellow">
+	    </div></a>
+	</body>
+</html>
+
+Span let's you style a section, can style color, font, etc.
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Result</title>
+	</head>
+	<body>
+		<p>My favorite font is <span style="font-family: Impact;">Impact</span>!</p>
+	</body>
+</html>
